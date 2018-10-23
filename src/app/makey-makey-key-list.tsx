@@ -14,7 +14,7 @@ export const MakeyMakeyKeyList = (props: MakeyMakeyKeyListProps) =>
 <div className="test">
 <List component="nav">
   {props.keyList.map(key =>
-    <ListItem button>
+    <ListItem button key={key.keyCode.toString()}>
       <ListItemIcon>
         <Icon>{key.iconName}</Icon>
       </ListItemIcon>

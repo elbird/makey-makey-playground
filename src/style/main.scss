@@ -1,0 +1,13 @@
+.makey-makey-input {
+    width: 96%;
+    min-height: 200px;
+    border: 1px solid #999;
+    border-radius: 1em;
+    padding: 2em;
+    margin-left: 2%;
+    &:focus {
+        color: #dddddd;
+        background-color: #dddddd;
+        outline: 0px solid transparent;
+    }
+}
